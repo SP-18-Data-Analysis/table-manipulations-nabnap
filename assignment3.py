@@ -2,7 +2,7 @@
 import pandas as pd
 
 #Load the data into a dataframe.
-dataFrame = pd.io.parsers.read_csv('data/wine.data')
+dataFrame = pd.io.parsers.read_csv('datasets/wine.data')
 
 #Each columns attribute name according to: https://archive.ics.uci.edu/ml/datasets/wine
 dataFrame.columns=['Class identifier', 'Alcohol','Malic acid','Ash','Alcalinity of ash','Magnesium','Total phenols','Flavanoids',\
